@@ -1,9 +1,9 @@
 
     public void SetMinDistance(float v) {
-        MinDistance = v;
+        MinDistance = v;// around1
     }
     public void SetMaxDistance(float v) {
-        MaxDistance = v;
+        MaxDistance = v;//set as 3 initial
     }
 
     private void UpdateOptions()
