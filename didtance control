@@ -1,0 +1,14 @@
+
+    public void SetMinDistance(float v) {
+        MinDistance = v;
+    }
+    public void SetMaxDistance(float v) {
+        MaxDistance = v;
+    }
+
+    private void UpdateOptions()
+    {
+        minOption.Value = MinDistance;
+        maxOption.Value = MaxDistance;
+    }
+
